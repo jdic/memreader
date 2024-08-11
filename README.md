@@ -60,7 +60,7 @@ To compile and run the project, follow these steps:
 
 - Permissions: To read memory from other processes, you may need superuser (sudo) permissions. Depending on your configuration, you may be able to run the program with `sudo ./memreader`.
 
-- `/proc files`: The `/proc` directory is a virtual file system that provides information about processes and system status. The contents of `/proc/[pid]/maps` and `/proc/[pid]/mem` may vary depending on system configuration and user permissions.
+- `/proc` files: The `/proc` directory is a virtual file system that provides information about processes and system status. The contents of `/proc/[pid]/maps` and `/proc/[pid]/mem` may vary depending on system configuration and user permissions.
 
 - Common Errors: If the program cannot open the necessary files or reads data incorrectly, check the permissions and make sure the process you are trying to read is running.
 
